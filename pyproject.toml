@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "hillel"
+version = "0.1.0"
+description = ""
+authors = ["Anna <annatsf@yahoo.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = "^22.6.0"
+pytest = "^7.1.2"
+linter-cli = "^0.0.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+lesson21 = "hillel.lesson_2_hw_1.task_2_math:main"
